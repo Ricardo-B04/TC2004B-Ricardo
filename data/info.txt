@@ -1,0 +1,23 @@
+INFORMACIÓN PERSONAL - TC2004B
+
+Nombre: Ricardo Ballesteros Amavizca
+Matrícula: A01255358
+Carrera: Ingeniería en Ciencia de Datos y Matemáticas
+Semestre: 4to
+
+¿Por qué tomé este curso?
+Es el inició de mi aprendizaje en la ciencia de datos de mi carrera.
+
+¿Qué espero aprender?
+Ser capaz de traducir problemas de negocio o del mundo real, en problemás técnicos que se pueden resolver haciendo uso de herramientas de estádistica y datos.
+
+Herramientas que ya conozco:
+- Python y las librerías utilizadas
+- La terminal en general
+- Herramientas como colab o vscode
+- git y github
+
+Herramientas nuevas para mí:
+- La verdad que no había hecho uso de Oh My Zsh, siempre había usado la terminal bash normal.
+- Lo mismo con iTerm2, ambas las he descargado después de que el profe las mencionara en clase.
+
