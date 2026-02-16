@@ -10,11 +10,13 @@ Repositorio personal para el curso TC2004B. Contiene notebooks y proyectos del s
 
 ## Estructura
 
+```text
 TC2004B-TuNombre/
 ├── README.md
 ├── .gitignore
 ├── notebooks/      # Jupyter Notebooks
 └── data/          # Datasets (cuando aplique)
+```
 
 ## Contenido por Semana
 
@@ -27,3 +29,60 @@ TC2004B-TuNombre/
 
 - Email: A01255358@tec.mx
 - GitHub: [@Ricardo-B04](https://github.com/Ricardo-B04)
+
+## Setup Local
+
+### Requisitos
+- Python 3.8+
+- Git
+
+### Instalación
+
+#### 1. Clonar repositorio
+```bash
+git clone https://github.com/TuUsuario/TC2004B-RicardoB04.git
+cd TC2004B-RicardoB04
+```
+
+#### 2. Crear ambiente virtual
+
+**Mac/Linux:**
+```bash
+python3 -m venv tc2004b_env
+source tc2004b_env/bin/activate
+```
+
+**Windows (PowerShell):**
+```bash
+python -m venv tc2004b_env
+tc2004b_env\Scripts\Activate.ps1
+```
+
+#### 3. Instalar dependencias
+```bash
+pip install -r requirements.txt
+```
+
+#### 4. Ejecutar Jupyter
+```bash
+jupyter notebook
+```
+
+Navega a `notebooks/` y abre el .ipynb
+
+### Desactivar ambiente
+```bash
+deactivate
+```
+
+### Problemas Comunes
+
+**Error: comando no encontrado**
+- Verifica que Python esté instalado: `python --version`
+
+**Error de permisos (Windows)**
+- Ejecuta: `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
+
+**ModuleNotFoundError**
+- Verifica que el ambiente esté activo
+- Reinstala dependencias: `pip install -r requirements.txt`
